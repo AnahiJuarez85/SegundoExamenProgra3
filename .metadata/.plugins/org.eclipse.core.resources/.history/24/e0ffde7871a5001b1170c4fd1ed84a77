@@ -1,0 +1,11 @@
+package com.example.demo.reposities;
+
+package com.examen.api.reposities;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.example.entities.TarifaoPago;
+
+public interface TarifaoPagoRepository extends CrudRepository<Tarifa, Long>{
+
+}

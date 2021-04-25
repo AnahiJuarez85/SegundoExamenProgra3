@@ -1,0 +1,8 @@
+package com.example.demo.reposities;
+
+import org.springframework.data.repository.CrudRepository;
+
+
+public interface ClientesRepository extends CrudRepository<Clientes, Long>{
+
+}
